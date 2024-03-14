@@ -10,7 +10,7 @@ class UserSerializer(serializers.ModelSerializer):
 class EstablishmentSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Establishment
-        fileds = ('path_image','name','location','category','description','address','ai_script','reviews')
+        fields = ('path_image','name','location','category','description','address','ai_script','reviews')
 
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
